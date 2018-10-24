@@ -29,6 +29,9 @@ class ArticleController extends AbstractController
 	 */
 	public function show($slug, MarkdownInterface $markdown, AdapterInterface $cache)
 	{
+		dump($markdown);
+		die;
+		
 		$comments = array(
 			'I like rainbows',
 			'Asteroids are something that I admire',
